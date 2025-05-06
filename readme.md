@@ -245,12 +245,6 @@ The IDIOMS system supports various query types:
 4. **Infix Query**: `*FILE*=*metadata*`
    - Finds objects with any attribute containing "FILE" and value containing "metadata"
 
-5. **Combined Query**: `Stage*=*00`
-   - Finds objects with attribute starting with "Stage" and value ending with "00"
-
-6. **Wildcard Query**: `*=*488*`
-   - Finds objects with any attribute and value containing "488"
-
 ## Performance Considerations
 
 1. **Trie-based Index**:
